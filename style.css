@@ -10,17 +10,19 @@ body {
 
 header {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 20px;
+    background: #741E23;
+    color: #FEBF10;
+    border-radius: 0 0 20px 20px;
 }
 
 h1 {
-    color: #741E23;
+    color: #FEBF10;
     margin-bottom: 5px;
 }
 
-.subtitle {
-    color: #8A191F;
-    font-weight: bold;
+.subtitle, .contact {
+    color: #FEBF10;
 }
 
 main {
@@ -29,28 +31,21 @@ main {
     padding-top: 20px;
 }
 
-/* Contact Section */
+/* Contact links */
 .contact {
     margin-top: 10px;
     font-size: 1rem;
-    color: #000000;
 }
 
 .contact a {
-    color: #741E23;
+    color: #FEBF10;
     font-weight: bold;
     text-decoration: none;
 }
 
 .contact a:hover {
+    color: #ffffff;
     text-decoration: underline;
-    color: #8A191F;
-}
-footer {
-    text-align: center;
-    padding: 10px 0;
-    color: #555555;
-    font-size: 0.9rem;
 }
 
 /* ========== Accordion Design ========== */
@@ -61,12 +56,12 @@ footer {
     margin-bottom: 20px;
     overflow: hidden;
     background: #ffffff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .accordion-header {
     width: 100%;
-    background: #741E23;
+    background: #8A191F;
     color: #FEBF10;
     padding: 16px 20px;
     text-align: left;
@@ -78,7 +73,7 @@ footer {
 }
 
 .accordion-header:hover {
-    background: #8A191F;
+    background: #741E23;
 }
 
 .accordion-content {
